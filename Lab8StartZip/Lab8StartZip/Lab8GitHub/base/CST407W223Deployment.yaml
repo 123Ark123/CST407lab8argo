@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
       - name: cst407
-        image: Nilothederg/dockerimagename:tag
+        image: NiloTheDerg/dockerimagename:tag
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
