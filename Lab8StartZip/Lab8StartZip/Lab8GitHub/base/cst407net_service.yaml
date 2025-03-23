@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: cst407net-service
+  namespace: default  # Add this line
   annotations:
     service.beta.kubernetes.io/linode-loadbalancer-throttle: "4"
   labels:
