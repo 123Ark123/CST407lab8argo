@@ -14,7 +14,7 @@ spec:
   #loadbalancer port
     port: 80
     protocol: TCP
-    targetPort: 32708
+    targetPort: 80
     # this pod port 
   selector:
   # now we choose which pods to load balance
